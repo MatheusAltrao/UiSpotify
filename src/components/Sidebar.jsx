@@ -1,10 +1,11 @@
+'use client';
 import React from 'react'
 import Image from 'next/image';
 import { Home as HomeIcon, Search, Library, } from 'lucide-react';
 
 const Sidebar = () => {
   return (
-    <aside className=" w-24 lg:w-72 bg-[#000] p-6" >
+    <aside className=" w-20 lg:w-72 bg-[#000] px-2 py-4 md:px-4" >
 
       <div className='flex items-center gap-2' >
         <div className='w-3 h-3 bg-red-500 rounded-full cursor-pointer' ></div>

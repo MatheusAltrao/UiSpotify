@@ -1,10 +1,11 @@
+'use client';
 import React from 'react'
 import Image from 'next/image';
 import { Play, } from 'lucide-react';
 
 const Card = () => {
   return (
-    <a href='#' className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10 group relative transition-colors w-[180px] h[180px]' >
+    <a href='#' className='bg-white/5 p-3 rounded-md flex flex-col gap-2 hover:bg-white/10 group relative transition-colors  w-[180px] h[180px]' >
       <Image className='w-full rounded-md' width={120} height={120} src='/Album.jpg' alt='Foto do album' />
       <strong className='font-bold ' >Night Visions</strong>
       <span className='text-sm text-zinc-400 ' >De Spotify</span>

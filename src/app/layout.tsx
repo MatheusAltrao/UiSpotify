@@ -1,3 +1,4 @@
+
 import './globals.css'
 
 
@@ -15,6 +16,10 @@ export default function RootLayout({
   return (
 
     <html lang="en">
+      <head>
+
+
+      </head>
       <body className=' bg-[#121212] text-zinc-50' >{children}</body>
     </html>
   )
